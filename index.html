@@ -7,3 +7,31 @@
     <title>Weather App</title>
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
+  <body class="bg-blue-700">
+    <header>
+      <h1 class="text-4xl font-bold justify-center bg-blue-500">Weather App ☁︎</h1>
+    </header>
+    <main>
+
+    </main>
+    <sidebar>
+      <h2 class="text-3xl">Search for a city!</h2>
+      <div class="flex justify-start">
+        <div class="mb-3 xl:w-96">
+          <input
+            type="search"
+            class="relative m-0 block w-full min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-700 outline-none transition duration-300 ease-in-out focus:border-primary-600 focus:text-neutral-700 focus:shadow-te-primary focus:outline-none dark:border-neutral-600 dark:text-neutral-500 dark:placeholder:text-neutral-500"
+            id="CitySearch"
+            placeholder="search" />
+        </div>
+      </div>
+      <div class="grid grid-rows-5 grid-flow-col-dense gap-2">
+        <div><button class="bg-gray-400 hover:bg-gray-600 text-black font-bold py-2 px-4 rounded">Houston</button></div>
+        <div><button class="bg-gray-400 hover:bg-gray-600 text-black font-bold py-2 px-4 rounded">Denver</button></div>
+        <div><button class="bg-gray-400 hover:bg-gray-600 text-black font-bold py-2 px-4 rounded">Los Angeles</button></div>
+        <div><button class="bg-gray-400 hover:bg-gray-600 text-black font-bold py-2 px-4 rounded">New York</button></div>
+        <div><button class="bg-gray-400 hover:bg-gray-600 text-black font-bold py-2 px-4 rounded">Austin</button></div>
+      </div>
+
+    </sidebar>
+  </body>
